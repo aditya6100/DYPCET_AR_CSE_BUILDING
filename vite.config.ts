@@ -5,7 +5,7 @@ import basicSsl from '@vitejs/plugin-basic-ssl';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), basicSsl()],
-  base: '/ArNavigationCollege/', // 👈 Add this line (your repo name)
+  base: '/DYPCET_AR_CSE_BUILDING/',
   server: {
     host: true, // Expose to your local network
     https: true, // Enable HTTPS
